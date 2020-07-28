@@ -59,8 +59,9 @@ $tweaks = @(
 	"DisableWAPPush",               # "EnableWAPPush",
 
 	### Security Tweaks ###
-	"SetUACLow",                  # "SetUACHigh",
-	# "EnableSharingMappedDrives",  # "DisableSharingMappedDrives",
+	# "SetUACLow",                  
+	"SetUACHigh",
+	"EnableSharingMappedDrives",  # "DisableSharingMappedDrives",
 	# "DisableAdminShares",           # "EnableAdminShares",
 	"DisableSMB1",                # "EnableSMB1",
 	# "DisableSMBServer",           # "EnableSMBServer",
@@ -70,8 +71,10 @@ $tweaks = @(
 	"DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
 	"DisableCtrldFolderAccess",	# "EnableCtrldFolderAccess",
 	# "DisableFirewall",            # "EnableFirewall",
-	"DisableDefender",            # "EnableDefender",
-	"DisableDefenderCloud",       # "EnableDefenderCloud",
+	# "DisableDefender",            
+	"EnableDefender",
+	# "DisableDefenderCloud",       
+	"EnableDefenderCloud",
 	"EnableF8BootMenu",             # "DisableF8BootMenu",
 	#"SetDEPOptOut",                 # "SetDEPOptIn",
 	# "EnableCIMemoryIntegrity",    # "DisableCIMemoryIntegrity",
@@ -81,7 +84,8 @@ $tweaks = @(
 
 	### Service Tweaks ###
 	"DisableUpdateMSRT",          # "EnableUpdateMSRT",
-	"DisableUpdateDriver",        # "EnableUpdateDriver",
+	# "DisableUpdateDriver",        
+	"EnableUpdateDriver",
 	"DisableUpdateRestart",         # "EnableUpdateRestart",
 	"DisableHomeGroups",          # "EnableHomeGroups",
 	"DisableSharedExperiences",     # "EnableSharedExperiences",
@@ -166,8 +170,8 @@ $tweaks = @(
 	"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
 	"InstallPDFPrinter",		# "UninstallPDFPrinter",
-	# "UninstallXPSPrinter",          # "InstallXPSPrinter",
-	# "RemoveFaxPrinter",             # "AddFaxPrinter",
+	"UninstallXPSPrinter",          # "InstallXPSPrinter",
+	"RemoveFaxPrinter",             # "AddFaxPrinter",
 
 	### Server Specific Tweaks ###
 	# "HideServerManagerOnLogin",   # "ShowServerManagerOnLogin",
@@ -178,7 +182,7 @@ $tweaks = @(
 	# "EnableAudio",                # "DisableAudio",
 
 	### Unpinning ###
-	"UnpinStartMenuTiles",
+	# "UnpinStartMenuTiles",
 	#"UnpinTaskbarIcons",
 
 	### Auxiliary Functions ###
